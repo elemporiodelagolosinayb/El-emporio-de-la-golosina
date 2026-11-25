@@ -1,0 +1,547 @@
+codigo,nombre,categoria,proveedor,precio,stock,activo,revisar,nota_revision
+,Galletitas Solitas Exhibición x 1 kg,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Surtisol x 1 kg,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Pepas x 1 kg,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Exhibición x 400,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Surtisol x 500,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Surtisol x 170,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Pepas x 400,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Pepas x 300,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Exhibición x 170,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Animación x 400,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Animación con confites x 400,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Animación sin confites x 170,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Surtidas x 300,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Chirola x 170,Galletas,Solitas,,,SI,NO,
+,Rosquitas Solitas Bañadas,Galletas,Solitas,,,SI,NO,
+,Puritos Solitas Bañados,Galletas,Solitas,,,SI,NO,
+,Mini Alfajor Solitas,Alfajores,Solitas,,,SI,NO,
+,Galletitas Solitas Sándwich con sal x 300 g,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Sándwich sin sal x 300 g,Galletas,Solitas,,,SI,NO,
+,Galletitas Solitas Pepas x 170 g,Galletas,Solitas,,,SI,NO,
+,Alfajor Rasta Blanco,Alfajores,Fibusia,,,SI,SI,Encabezado poco claro (Fibusia): revisar proveedor
+,Alfajor Rasta Negro,Alfajores,Fibusia,,,SI,SI,Encabezado poco claro (Fibusia): revisar proveedor
+,Mini Rasta,Alfajores,Fibusia,,,SI,SI,Encabezado poco claro (Fibusia): revisar proveedor
+,Zannas,Barritas,Fibusia,,,SI,SI,Encabezado poco claro (Fibusia): revisar proveedor
+,Barrigón,Golosinas,Fibusia,,,SI,SI,Encabezado poco claro (Fibusia): revisar proveedor
+,Galletitas Granix Fiesta,Galletas,Granix,,,SI,NO,
+,Cereal Granix Aritos de Miel,Golosinas,Granix,,,SI,NO,
+,Cereal Granix Aritos Frutales,Golosinas,Granix,,,SI,NO,
+,Cereal Granix Baloncitos,Golosinas,Granix,,,SI,NO,
+,Granix Skarchitos,Galletas,Granix,,,SI,NO,
+,Galletitas Granix Sándwich,Galletas,Granix,,,SI,NO,
+,Galletitas Granix Salvado,Galletas,Granix,,,SI,NO,
+,Galletitas Granix Salvado sin sal,Galletas,Granix,,,SI,NO,
+,Galletitas Granix sin sal,Galletas,Granix,,,SI,NO,
+,Galletitas Granix Lino,Galletas,Granix,,,SI,NO,
+,Galletitas Granix Sésamo,Galletas,Granix,,,SI,NO,
+,Galletitas Frutigram Salvado,Galletas,Granix,,,SI,NO,
+,"Galletitas Frutigram Avena, Chía y Lino",Galletas,Granix,,,SI,NO,
+,"Galletitas Frutigram Avena, Sésamo, Amaranto y Girasol",Galletas,Granix,,,SI,NO,
+,Galletitas Frutigram Avena y Pasas,Galletas,Granix,,,SI,NO,
+,Galletitas Frutigram Chips de Chocolate,Galletas,Granix,,,SI,NO,
+,Copos de Maíz Granix,Golosinas,Granix,,,SI,NO,
+,Chicle Fierita Menta,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Tutti,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Frutilla,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Banana,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Uva,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Menta,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Tutti,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Frutilla,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Banana,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Cola,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Fierita Recargado Mundial,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Mini Recargado Frutilla,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Mini Recargado Menta,Chicles y Caramelos,Swift,,,SI,NO,
+,Chicle Mini Recargado Tutti,Chicles y Caramelos,Swift,,,SI,NO,
+,Redondito de Fierita,Chicles y Caramelos,Swift,,,SI,NO,
+,Come Fuego,Chicles y Caramelos,Swift,,,SI,NO,
+,Caramelo Cremosito,Chicles y Caramelos,Swift,,,SI,NO,
+,Caramelo Circus,Chicles y Caramelos,Swift,,,SI,NO,
+,Caramelo Granjero,Chicles y Caramelos,Swift,,,SI,NO,
+,Métrico,Chicles y Caramelos,Swift,,,SI,NO,
+,Pintalenguas Patitas,Chicles y Caramelos,Swift,,,SI,NO,
+,Pintalenguas Emoji,Chicles y Caramelos,Swift,,,SI,NO,
+,Papas Reno x 1 kg,Snacks,Reno,,,SI,NO,
+,Papas Reno x 500 g,Snacks,Reno,,,SI,NO,
+,Papritos Reno,Snacks,Reno,,,SI,NO,
+,Chizito Reno Amarillo x 1 kg,Snacks,Reno,,,SI,NO,
+,Chizito Reno Naranja x 1 kg,Snacks,Reno,,,SI,NO,
+,Chizito Reno Amarillo x 600,Snacks,Reno,,,SI,NO,
+,Chizito Reno Naranja x 600,Snacks,Reno,,,SI,NO,
+,Puflito Reno x 600,Snacks,Reno,,,SI,NO,
+,Puflito Reno x 1 kg,Snacks,Reno,,,SI,NO,
+,Tutuca Reno x 1 kg,Snacks,Reno,,,SI,NO,
+,Chizito Reno x 200,Snacks,Reno,,,SI,NO,
+,Chizito Reno x 300,Snacks,Reno,,,SI,NO,
+,Palitos Reno x 300,Snacks,Reno,,,SI,NO,
+,Chizito Reno x 70 g,Snacks,Reno,,,SI,NO,
+,Puflito Reno x 70 g,Snacks,Reno,,,SI,NO,
+,Tutuca Reno x 70 g,Snacks,Reno,,,SI,NO,
+,Puflito Reno x 300,Snacks,Reno,,,SI,NO,
+,Pizzetas Reno x 70 g,Snacks,Reno,,,SI,NO,
+,Palitos Reno x 800 g,Snacks,Reno,,,SI,NO,
+,Palitos Reno x 500 g,Snacks,Reno,,,SI,NO,
+,Chizito Zingaras Naranja x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Chizito Zingaras x 370 g,Snacks,Zingaras,,,SI,NO,
+,Papas Fritas Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Papas Fritas Zingaras x 500,Snacks,Zingaras,,,SI,NO,
+,Palitos Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Palitos Zingaras x 500,Snacks,Zingaras,,,SI,NO,
+,Maní Frito con Piel Zingaras x 500,Snacks,Zingaras,,,SI,NO,
+,Maní Frito sin Piel Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Maní Tostado Zingaras x 500,Snacks,Zingaras,,,SI,NO,
+,Maní Tostado Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Maní Frito Pelado Zingaras x 500,Snacks,Zingaras,,,SI,NO,
+,Maní Frito Pelado Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Maní Saborizado Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Papas Pay Zingaras x 1 kg,Snacks,Zingaras,,,SI,NO,
+,Papas Pay Zingaras x 110 g,Snacks,Zingaras,,,SI,NO,
+,Maní Crocante Jamón Zingaras x 150 g,Snacks,Zingaras,,,SI,NO,
+,Maní Crocante Pizza Zingaras x 150 g,Snacks,Zingaras,,,SI,NO,
+,Maní Frito Pelado Zingaras x 150 g,Snacks,Zingaras,,,SI,NO,
+,Maní Frito Zingaras x 150 g,Snacks,Zingaras,,,SI,NO,
+,Papas Fritas Focu x 1 kg,Snacks,Focu,,,SI,NO,
+,Papas Fritas Focu x 500,Snacks,Focu,,,SI,NO,
+,Papas Fritas Focu x 200,Snacks,Focu,,,SI,NO,
+,Papas Fritas Focu x 80 g,Snacks,Focu,,,SI,NO,
+,Papas Fritas Focu x 20 g,Snacks,Focu,,,SI,NO,
+,Bocadito Oblibon Marroc,Chocolates,Oblitas,,,SI,NO,
+,Bocadito Oblibon Negro,Chocolates,Oblitas,,,SI,NO,
+,Bocadito Oblibon Blanco,Chocolates,Oblitas,,,SI,NO,
+,Bombón Oblitas Clásico x 30u,Chocolates,Oblitas,,,SI,NO,
+,Bombón Oblitas Frutilla,Chocolates,Oblitas,,,SI,NO,
+,Bombón Oblitas Blanco,Chocolates,Oblitas,,,SI,NO,
+,Bombón Oblitas Chocolate,Chocolates,Oblitas,,,SI,NO,
+,Bombón Oblitas Crash,Chocolates,Oblitas,,,SI,NO,
+,Oblea Oblitas Bañada Negro,Galletas,Oblitas,,,SI,NO,
+,Oblea Oblitas Bañada Blanco,Galletas,Oblitas,,,SI,NO,
+,Galletas Oblitas,Galletas,Oblitas,,,SI,NO,
+,Oblita Chocolate 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Frutilla 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Dulce de Leche 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Vainilla 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Mix Frutal 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Limón 100 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Limón 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Mix Frutal 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Frutilla 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Vainilla 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Dulce de Leche 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblita Chocolate 50 g,Galletas,Oblitas,,,SI,NO,
+,Oblitas Coquet,Galletas,Oblitas,,,SI,NO,
+,Oblita Fit,Galletas,Oblitas,,,SI,NO,
+,Bombón Oblitas Mix x 150,Chocolates,Oblitas,,,SI,NO,
+,Cubanitos Oblitas x 480,Golosinas,Oblitas,,,SI,NO,
+,Oblitas Chocolate (variedad),Golosinas,Oblitas,,,SI,SI,En la foto figuran solos debajo de Cubanitos: revisar a qué producto corresponden
+,Oblitas Marroc (variedad),Golosinas,Oblitas,,,SI,SI,En la foto figuran solos debajo de Cubanitos: revisar a qué producto corresponden
+,Oblitas Nougat (variedad),Golosinas,Oblitas,,,SI,SI,En la foto figuran solos debajo de Cubanitos: revisar a qué producto corresponden
+,Oblitas Frutilla (variedad),Golosinas,Oblitas,,,SI,SI,En la foto figuran solos debajo de Cubanitos: revisar a qué producto corresponden
+,Oblitas Dulce de Leche (variedad),Golosinas,Oblitas,,,SI,SI,En la foto figuran solos debajo de Cubanitos: revisar a qué producto corresponden
+,Turrón Fulbito,Turrones,Nevares,,,SI,NO,
+,Fulbito Black x 44u,Turrones,Nevares,,,SI,NO,
+,Fulbito Maní x 44u,Turrones,Nevares,,,SI,NO,
+,Fulbito Chocolate x 44u,Turrones,Nevares,,,SI,NO,
+,Alfajor Smack Dulce de Leche,Alfajores,Nevares,,,SI,NO,
+,Alfajor Smack Mousse,Alfajores,Nevares,,,SI,NO,
+,Picnic x 40u,Golosinas,Nevares,,,SI,NO,
+,Rapsodia x 24u,Chocolates,Nevares,,,SI,NO,
+,Boquitas Limón,Golosinas,Nevares,,,SI,NO,
+,Coquitos,Golosinas,Nevares,,,SI,NO,
+,Palmeritas,Galletas,Nevares,,,SI,SI,Letra poco clara: revisar el nombre
+,Bombón Nevares,Chocolates,Nevares,,,SI,NO,
+,Alfajor Nevares Negro,Alfajores,Nevares,,,SI,NO,
+,Alfajor Nevares Blanco,Alfajores,Nevares,,,SI,NO,
+,Alfajor Mogy Blanco,Alfajores,Nevares,,,SI,NO,
+,Alfajor Mogy Negro,Alfajores,Nevares,,,SI,NO,
+,Alfajor Genio Negro,Alfajores,Nevares,,,SI,NO,
+,Alfajor Genio Blanco,Alfajores,Nevares,,,SI,NO,
+,Cubanitos Smack,Golosinas,Nevares,,,SI,NO,
+,Oblea Smack,Galletas,Nevares,,,SI,NO,
+,Bombón Smack,Chocolates,Nevares,,,SI,NO,
+,Chupetín Pico Dulce x 48u,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable Pico Dulce x 150u,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Caramelo Duro Pico Dulce,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable Pico Dulce Yogurines,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable Ácido Power,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable Animals,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable BIT,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Chupetonato,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Baby Doll x 40u,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Chupetín Bola Loca Max,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Chupetín Bola Loca Fútbol Club Boca,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Chupetín Bola Loca Fútbol Club River,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Marrakesh 30 g,Chocolates,Lheritier,,,SI,NO,
+,Marrakesh 75 g,Chocolates,Lheritier,,,SI,NO,
+,Alfajor Fantoche Blanco,Alfajores,Lheritier,,,SI,NO,
+,Alfajor Fantoche Negro,Alfajores,Lheritier,,,SI,NO,
+,Alfajor Triple Red Velvet,Alfajores,Lheritier,,,SI,NO,
+,Alfajor Super Triple,Alfajores,Lheritier,,,SI,NO,
+,Elixir 70% Cacao,Chocolates,Lheritier,,,SI,NO,
+,Elixir,Chocolates,Lheritier,,,SI,NO,
+,Elixir Chocolate Blanco,Chocolates,Lheritier,,,SI,NO,
+,Pescado Raúl Negro,Golosinas,Lheritier,,,SI,NO,
+,Pescado Raúl Blanco,Golosinas,Lheritier,,,SI,NO,
+,Tapitas de Alfajor,Alfajores,Lheritier,,,SI,NO,
+,Galletitas Horóscopo,Galletas,Lheritier,,,SI,NO,
+,Chupetín Masticable Baby Doll,Chicles y Caramelos,Lheritier,,,SI,NO,
+,Masticable Flynn Paff,Chicles y Caramelos,Georgalos,,,SI,NO,
+,Oblea Mantecol,Galletas,Georgalos,,,SI,NO,
+,Chocolatín Georgalos,Chocolates,Georgalos,,,SI,NO,
+,Chocolate sin Azúcar Blanco 70 g,Chocolates,Georgalos,,,SI,NO,
+,Chocolate sin Azúcar Negro 70 g,Chocolates,Georgalos,,,SI,NO,
+,Takis Xplosion x 140 g,Snacks,Georgalos,,,SI,NO,
+,Takis Xplosion x 85 g,Snacks,Georgalos,,,SI,NO,
+,Takis Xplosion x 48 g,Snacks,Georgalos,,,SI,NO,
+,Takis Fuego x 140 g,Snacks,Georgalos,,,SI,NO,
+,Takis Fuego x 85 g,Snacks,Georgalos,,,SI,NO,
+,Takis Fuego x 48 g,Snacks,Georgalos,,,SI,NO,
+,Takis Original x 85 g,Snacks,Georgalos,,,SI,NO,
+,Takis Intense Nacho 85 g,Snacks,Georgalos,,,SI,NO,
+,Takis Intense Nacho 140 g,Snacks,Georgalos,,,SI,NO,
+,Takis Intense Nacho 49 g,Snacks,Georgalos,,,SI,NO,
+,Takis Blue Heat 85 g,Snacks,Georgalos,,,SI,NO,
+,Takis Buckin Ranch x 85 g,Snacks,Georgalos,,,SI,NO,
+,Mantecol 110 g,Turrones,Georgalos,,,SI,NO,
+,Mantecol Clásico 40 g,Turrones,Georgalos,,,SI,NO,
+,Untable Mantecol,Variedades,Georgalos,,,SI,NO,
+,Barra Flow Almendras Enteras,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Almendras con Piso de Chocolate,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Avellanas y Arándanos con Miel,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Cajú con Caramelo y Sal,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Frutos del Bosque con Yogur,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Frutos Rojos con Yogur,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Granola con Chips de Chocolate,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Granola con Semillas,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Granola con Chocolate,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Granola con Frutos del Bosque,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Manzana Light,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Mix de Frutas,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Puro Cacao,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Yogurt Light,Barritas,Georgalos,,,SI,NO,
+,Barra Flow Chocolate y Limón,Barritas,Georgalos,,,SI,NO,
+,Chocolate Georgalos con Leche 25 g,Chocolates,Georgalos,,,SI,NO,
+,Chocolate Georgalos Blanco 25 g,Chocolates,Georgalos,,,SI,NO,
+,Chocolate Georgalos 60% Cacao 25 g,Chocolates,Georgalos,,,SI,NO,
+,Chocolate Full Maní 80 g,Chocolates,Georgalos,,,SI,NO,
+,Chocolate Full Maní 30 g,Chocolates,Georgalos,,,SI,NO,
+,Marroc x 20u,Chocolates,Fel Fort,,,SI,NO,
+,Marroc x 40u,Chocolates,Fel Fort,,,SI,NO,
+,Dos Corazones 26 g,Chocolates,Fel Fort,,,SI,NO,
+,Feeling 20 g,Chocolates,Fel Fort,,,SI,NO,
+,Wining 20 g,Chocolates,Fel Fort,,,SI,SI,Letra poco clara: revisar el nombre
+,Kooky Bon 10 g,Chocolates,Fel Fort,,,SI,NO,
+,Medallón Dulce de Leche,Golosinas,Fel Fort,,,SI,NO,
+,Fort Maní,Chocolates,Fel Fort,,,SI,NO,
+,Mentitas Fel Fort,Chicles y Caramelos,Fel Fort,,,SI,NO,
+,Tivis,Golosinas,Fel Fort,,,SI,SI,Letra poco clara: revisar el nombre
+,Jack Chocolate con Leche 14 g,Chocolates,Fel Fort,,,SI,NO,
+,Moneda Jack x 60u,Chocolates,Fel Fort,,,SI,NO,
+,Moneditas x 60u,Chocolates,Fel Fort,,,SI,NO,
+,Chupelatín Clásico,Chicles y Caramelos,Fel Fort,,,SI,NO,
+,Paragüitas Fel Fort,Chocolates,Fel Fort,,,SI,NO,
+,Licorfort Whisky,Golosinas,Fel Fort,,,SI,NO,
+,Ircontas,Golosinas,Fel Fort,,,SI,SI,Página sin encabezado: asumí que sigue la anterior. Letra poco clara: revisar el nombre
+,Cerealet,Barritas,Fel Fort,,,SI,SI,Página sin encabezado: asumí que sigue la anterior. Letra poco clara: revisar el nombre
+,Tabletón de Chocolate con Leche y Maní 75 g,Chocolates,Fel Fort,,,SI,NO,
+,Barrita Diabfort,Barritas,Fel Fort,,,SI,SI,"Página sin encabezado: asumí que sigue la anterior. Escrito en lápiz, revisar si va"
+,Kit Kat Leche,Chocolates,Nestlé,,,SI,NO,
+,Kit Kat White,Chocolates,Nestlé,,,SI,NO,
+,Kit Kat Dark,Chocolates,Nestlé,,,SI,NO,
+,Kit Kat Triple Chocolate,Chocolates,Nestlé,,,SI,NO,
+,Chocolate Crunch 80 g,Chocolates,Nestlé,,,SI,NO,
+,Chocotrío Cookies and Cream 80 g,Chocolates,Nestlé,,,SI,NO,
+,Chocotrío Chocolate 80 g,Chocolates,Nestlé,,,SI,NO,
+,Chocotrío Maní 80 g,Chocolates,Nestlé,,,SI,NO,
+,Chocotrío Avellana 80 g,Chocolates,Nestlé,,,SI,NO,
+,Chocolate Suflair Aireado 80 g,Chocolates,Nestlé,,,SI,NO,
+,Batón Chocolate con Leche,Chocolates,Nestlé,,,SI,NO,
+,Bananita Dolca 30 g,Chocolates,Nestlé,,,SI,NO,
+,Bananita Dolca 14 g,Chocolates,Nestlé,,,SI,NO,
+,Nesquik Chocolatada,Variedades,Nestlé,,,SI,NO,
+,Nutren Protein 17 g,Variedades,Nestlé,,,SI,NO,
+,Galletitas Vocación Clásica x 1,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Vocación Clásica x 3,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Vocación Acaramelada x 1,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Vocación Acaramelada x 3,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 81 g Vainilla,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 81 g Frutilla,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 81 g Chocolate,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 152 g Vainilla,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 152 g Frutilla,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Polvorita 152 g Chocolate,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Macucas 85 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Surtido Lía 400 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Vainillas 80 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Vainillas 320 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Vainillas 800 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Mauri sin sal 400 g,Galletas,Mauri,,,SI,NO,
+,Galletitas Mauri con sal 400 g,Galletas,Mauri,,,SI,NO,
+,Gomitas Ricomas Conitos,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Ricomas Anillos,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Ricomas Jelly,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Piñata Surtida,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Piñata Pete,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar. Letra poco clara: revisar el nombre
+,Gomitas Piñata Redondas Menta Limón,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gotitas de Amor x 120,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Sandía x 500,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Diente x 500,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Gusanos Ácidos x 500,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Crazy Pop Frutilla x 200,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Crazy Pop Uva x 200,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Billiken Surtido x 700,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Misky Fantasía x 12,Golosinas,Misky,,,SI,NO,
+,Gomitas Misky Ositos x 12,Golosinas,Misky,,,SI,NO,
+,Gomitas Misky Dinos x 12,Golosinas,Misky,,,SI,NO,
+,Gomitas Misky Gusanitos x 12,Golosinas,Misky,,,SI,NO,
+,Gomitas Yummy Mora 500 g,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Ositos 500 g,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Dientes 500 g,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Ciempiés 500 g,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Ositos Ácidos 500 g,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Mora x 12,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gomitas Yummy Ositos x 12,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Coloreti Festa Formato Bola x 180,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Coloreti Festa Formato Corazón x 18,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Coloreti Festa Rocklets x 18,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Wamis Frutal,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Wamis Leche,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Cosmos,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Bombón Ducrem Napolitano x 36,Chocolates,Ducrem,,,SI,NO,
+,Bombón Ducrem Leche Condensada x 36,Chocolates,Ducrem,,,SI,NO,
+,Bombón Ducrem Love x 18,Chocolates,Ducrem,,,SI,NO,
+,Turrón Misky,Turrones,Misky,,,SI,NO,
+,Chupetín Mega Cosmos,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Cremoso 800 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Cherry 800 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Strong 800 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Menta 800 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Ácido 800 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Cherry x 12,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Strong x 12,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo Alka Menta x 12,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Sugus Masticable,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Sugus Confitado,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Sugus Confitado Ácido,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Pastillas Mini 8,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Mentitas de la Casa Fruta,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Mentitas de la Casa Menta,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Mentitas de la Casa Dulce de Leche,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Ricomas,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Bulldog,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Animals (Ricomas),Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Bombón Ducrem x 50,Chocolates,Ducrem,,,SI,NO,
+,Regaliz Frambuesa 18 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tutti Frutti 18 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Frutilla 18 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Sandía 18 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tornado Frambuesa 75 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tornado Tutti 75 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tornado Frutilla 75 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tornado Sandía 75 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Frambuesa 360 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Tutti 360 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Frutilla 360 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Regaliz Sandía 360 g,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Alfajor Tante Triple x 36,Alfajores,,,,SI,SI,Proveedor tachado en la foto: completar. Letra poco clara: revisar el nombre
+,Pastillas Yapa,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Lenguetazo,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Flynn Paff Tutti,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Flynn Paff Banana,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Masticable Flynn Paff Pintalengua,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Alfajor Gula,Alfajores,Gula,,,SI,NO,
+,Galletitas Kukinas Frutilla,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Kukinas Chocolate,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Kukinas Americana,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Pan Dulce Buon Natale,Temporadas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Turrón Alteza,Turrones,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Alteza,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Hamlet Way,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Hamlet Blanco y Cookies,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Hamlet Chocolatoso,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Hamlet Frutilla,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Chocolate Hamlet Maní,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Media Tarde x 30,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Pan Dulce Don Satur,Temporadas,Don Satur,,,SI,NO,
+,Chocolatín Misky Blanco,Chocolates,Misky,,,SI,NO,
+,Chocolatín Misky Negro,Chocolates,Misky,,,SI,NO,
+,Chocolate Celofán Misky 25 g,Chocolates,Misky,,,SI,NO,
+,Chocolate Celofán Misky 50 g,Chocolates,Misky,,,SI,NO,
+,Chocolate para Taza Misky 100 g,Chocolates,Misky,,,SI,NO,
+,Galletitas Hojalmar Ronda,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Hojalmar Triángulos,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Fauna 150 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Galletitas Fauna 400 g,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Mirgal x 1 kg,Golosinas,,,,SI,SI,Proveedor tachado en la foto: completar. Letra poco clara: revisar el nombre
+,Caramelo TNT Uva x 12,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Caramelo TNT Frutilla x 12,Chicles y Caramelos,,,,SI,SI,Proveedor tachado en la foto: completar
+,Bizcochos Don Satur Dulces,Galletas,Don Satur,,,SI,NO,
+,Bizcochos Don Satur Salados,Galletas,Don Satur,,,SI,NO,
+,Magdalenas Don Satur Dulce de Leche,Galletas,Don Satur,,,SI,NO,
+,Magdalenas Don Satur Chips,Galletas,Don Satur,,,SI,NO,
+,Magdalenas Don Satur Vainilla,Galletas,Don Satur,,,SI,NO,
+,Magdalenas Don Satur Marmoladas,Galletas,Don Satur,,,SI,NO,
+,Galletitas Trío Pepas 200 g,Galletas,Trío,,,SI,NO,
+,Galletitas Trío Pepas con Chips 200 g,Galletas,Trío,,,SI,NO,
+,Galletitas Trío Pepas Chocolate 200 g,Galletas,Trío,,,SI,NO,
+,Galletitas Trío Frutitas,Galletas,Trío,,,SI,NO,
+,Galletitas Trío Pepas 500 g,Galletas,Trío,,,SI,NO,
+,Jugo Baggio Mix 200 ml,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Jugo Baggio Mix 125 ml,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Jugo Pepito,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Jugo Baggio Durazno 200 ml,Variedades,,,,SI,SI,"Proveedor tachado en la foto: completar. Escrito en lápiz, revisar si va"
+,Jugo Baggio Durazno 125 ml,Variedades,,,,SI,SI,"Proveedor tachado en la foto: completar. Escrito en lápiz, revisar si va"
+,Chicle Beldent Strong x 20u,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Sandía x 20u,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Fruta x 20u,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Menta x 20u,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Mentol x 20u,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Infinit Blueberry,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Chicle Beldent Infinit Menta,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Menthol,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Menta,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Strong,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Cherry,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Sandía,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Caramelo Halls Miel,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Halls Free Menta,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Halls Free Cherry,Chicles y Caramelos,Mondelez,,,SI,NO,
+,Galletitas Variedad Clásica,Galletas,Mondelez,,,SI,NO,
+,Galletitas Variedad Dorada,Galletas,Mondelez,,,SI,NO,
+,Galletitas Variedad Chocolate,Galletas,Mondelez,,,SI,NO,
+,Galletitas Lincoln,Galletas,Mondelez,,,SI,NO,
+,Galletitas Melba,Galletas,Mondelez,,,SI,NO,
+,Galletitas Duquesa,Galletas,Mondelez,,,SI,NO,
+,Oblea Tita,Galletas,Mondelez,,,SI,NO,
+,Oblea Rhodesia,Galletas,Mondelez,,,SI,NO,
+,Alfajor Milka Mousse Blanco,Alfajores,Mondelez,,,SI,NO,
+,Alfajor Milka Mousse,Alfajores,Mondelez,,,SI,NO,
+,Alfajor Milka Super Dulce de Leche Blanco,Alfajores,Mondelez,,,SI,NO,
+,Alfajor Terrabusi Triple Dulce de Leche,Alfajores,Mondelez,,,SI,NO,
+,Alfajor Tita,Alfajores,Mondelez,,,SI,NO,
+,Bombón Milka Oreo,Chocolates,Mondelez,,,SI,NO,
+,Chocolate Cadbury 170 g,Chocolates,Mondelez,,,SI,NO,
+,Chocolate Cadbury 72 g,Chocolates,Mondelez,,,SI,NO,
+,Galletitas Oreo,Galletas,Mondelez,,,SI,NO,
+,Galletitas Pepitos,Galletas,Mondelez,,,SI,NO,
+,Galletitas Mini Oreo,Galletas,Mondelez,,,SI,NO,
+,Galletitas Mini Pepitos,Galletas,Mondelez,,,SI,NO,
+,Alfajor Pepitos,Alfajores,Mondelez,,,SI,NO,
+,Alfajor Oreo,Alfajores,Mondelez,,,SI,NO,
+,Mini Rhodesia,Galletas,Mondelez,,,SI,NO,
+,Mini Habanitos,Galletas,Mondelez,,,SI,NO,
+,Mini Snacky,Galletas,Mondelez,,,SI,SI,Página sin encabezado: asumí que sigue la anterior. Letra poco clara: revisar el nombre
+,Papas Fritas Clásicas Good Show 23 g,Snacks,Good Show,,,SI,NO,
+,Papas Fritas Clásicas Good Show 93 g,Snacks,Good Show,,,SI,NO,
+,Papas Fritas Clásicas Good Show 230 g,Snacks,Good Show,,,SI,NO,
+,Papas Fritas Clásicas Good Show 430 g,Snacks,Good Show,,,SI,NO,
+,Papas Corte Americano Good Show 23 g,Snacks,Good Show,,,SI,NO,
+,Papas Corte Americano Good Show 63 g,Snacks,Good Show,,,SI,NO,
+,Papas Rústicas Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Cheddar Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Papas Cheddar Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Crema y Cebolla Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Papas Crema y Cebolla Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Huevo Frito Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Papas Huevo Frito Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Jamón Serrano Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Papas Jamón Serrano Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Ketchup Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Papas Ketchup Good Show 83 g,Snacks,Good Show,,,SI,NO,
+,Papas Pimienta Negra Good Show 63 g,Snacks,Good Show,,,SI,NO,
+,Papas Pay Good Show 63 g,Snacks,Good Show,,,SI,NO,
+,Palitos Salados Good Show 93 g,Snacks,Good Show,,,SI,NO,
+,Palitos Salados Good Show 153 g,Snacks,Good Show,,,SI,NO,
+,Batatas Fritas Good Show 63 g,Snacks,Good Show,,,SI,NO,
+,Horneados de Queso Good Show 120 g,Snacks,Good Show,,,SI,NO,
+,Pochoclo Good Show 90 g,Snacks,Good Show,,,SI,NO,
+,Papas Asado con Chimichurri Good Show 53 g,Snacks,Good Show,,,SI,NO,
+,Tembleke Tiras Surtido,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Frutas,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Bumy,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Bichos,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Galácticos,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Dominó,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Familia,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Selva,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Princesitas,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Dino,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Pirata,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Emociones,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Tutti Frutti 67u,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Cortas Reloj,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Cortas Cobra,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Cortas Rata,Golosinas,Planeta Dulce,,,SI,NO,
+,Tembleke Tiras Cortas Dino Largo,Golosinas,Planeta Dulce,,,SI,NO,
+,Docile Surtido 500 g,Golosinas,Docile,,,SI,NO,
+,Docile Surtido Corazón 500 g,Golosinas,Docile,,,SI,NO,
+,Docile Gomos 500 g,Golosinas,Docile,,,SI,NO,
+,Docile Gelatines Moras 250 g,Golosinas,Docile,,,SI,NO,
+,Docile Sandía 250 g,Golosinas,Docile,,,SI,NO,
+,Docile Tenis Ácido 250 g,Golosinas,Docile,,,SI,SI,Letra poco clara: revisar el nombre
+,Docile Fantasía Ácida 250 g,Golosinas,Docile,,,SI,NO,
+,Docile Cereza 250 g,Golosinas,Docile,,,SI,NO,
+,"Docile Fantasía Frutilla, Uva y Mandarina 250 g",Golosinas,Docile,,,SI,NO,
+,Docile Gelatines Beso 15 g,Golosinas,Docile,,,SI,NO,
+,Docile Gelatines Moras 15 g,Golosinas,Docile,,,SI,NO,
+,Docile Gelatines Plátano 15 g,Golosinas,Docile,,,SI,NO,
+,Docile Plátano 250 g,Golosinas,Docile,,,SI,NO,
+,Docile Tubo Surtido 500,Golosinas,Docile,,,SI,SI,"Escrito en lápiz, revisar si va"
+,Docile Mix Dulce y Ácido 500,Golosinas,Docile,,,SI,SI,"Escrito en lápiz, revisar si va"
+,Ferrero Rocher x 20,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Ferrero Rocher x 12,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Ferrero Rocher x 8,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Ferrero Rocher x 3,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Kinder Bueno Blanco,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Kinder Bueno Negro,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Huevo Kinder,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Nutella 140 g,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Nutella 350 g,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Barrita Kinder x 4,Chocolates,,,,SI,SI,Proveedor tachado en la foto: completar
+,Oblea Nutella,Galletas,,,,SI,SI,Proveedor tachado en la foto: completar
+,Pilas AA,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Pilas AAA,Variedades,,,,SI,SI,Proveedor tachado en la foto: completar
+,Gallinitas,Golosinas,,,,SI,NO,
+,Heladitos de Invierno,Golosinas,,,,SI,NO,
+,Cubanitos,Golosinas,,,,SI,NO,
+,Merenguitos,Golosinas,,,,SI,NO,
+,Alfatuc,Alfajores,,,,SI,NO,
+,Girasol,Golosinas,,,,SI,NO,
+,Girasolazo,Golosinas,,,,SI,NO,
+,Tableta Dulce de Leche,Golosinas,,,,SI,NO,
+,Tableta Caña de Azúcar,Golosinas,,,,SI,NO,
+,Claritas,Golosinas,,,,SI,NO,
+,Alfeñique,Golosinas,,,,SI,NO,
+,Quesadillas,Golosinas,,,,SI,NO,
+,Ojo de Melón,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Chupetín Multicolor x 12,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Chupetín Multicolor x 25,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Varita Mágica,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Paleta Corazón,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Paleta Estrella,Chicles y Caramelos,Paysandú,,,SI,NO,
+,Barra de Arroz,Barritas,Paysandú,,,SI,NO,
+,Maní Saborizado Que Rico x 10,Snacks,Que Rico,,,SI,NO,
+,Maní Frito Que Rico x 10,Snacks,Que Rico,,,SI,NO,
+,Barra al Palo,Barritas,,,,SI,NO,
+,Miel al Palo,Barritas,,,,SI,NO,
+,Pasta de Maní,Barritas,,,,SI,NO,
+,Que lo Paleó,Barritas,,,,SI,NO,
+,Zannas (Barritas),Barritas,,,,SI,NO,
+,Nuna Miski,Barritas,,,,SI,SI,Letra poco clara: revisar el nombre
+,Barritas Flow Cereal,Barritas,,,,SI,NO,
+,Cereal Mix,Barritas,,,,SI,NO,
+,Praderas,Barritas,,,,SI,NO,
+,Paragüitas Bibi,Chicles y Caramelos,Bibi,,,SI,NO,
+,Manzanita,Chicles y Caramelos,Bibi,,,SI,NO,
+,Chupete x 30,Chicles y Caramelos,Bibi,,,SI,NO,
+,Monedas Bibi,Chicles y Caramelos,Bibi,,,SI,NO,
+,Mielcita,Chicles y Caramelos,Bibi,,,SI,NO,
+,Paleta Mickey,Chicles y Caramelos,Bibi,,,SI,NO,
+,Super Paleta,Chicles y Caramelos,Bibi,,,SI,NO,
+,Topo,Chicles y Caramelos,Bibi,,,SI,NO,
+,Cono Doble,Variedades,Helatec,,,SI,NO,
+,Cono Simple,Variedades,Helatec,,,SI,NO,
+,Tacitas,Variedades,Helatec,,,SI,NO,
+,Cono Dulce,Variedades,Helatec,,,SI,NO,
+,Cucharitas,Variedades,Helatec,,,SI,NO,

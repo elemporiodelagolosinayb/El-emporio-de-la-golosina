@@ -1,0 +1,5 @@
+{
+  "watch": ["."],
+  "ext": "js,json",
+  "ignore": [".devdb/**", "node_modules/**", "seeds/**"]
+}

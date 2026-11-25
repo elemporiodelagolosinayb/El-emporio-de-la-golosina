@@ -1,0 +1,272 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Paleta de marca (sacada de los logos) */
+:root {
+  --color-petrol: #286C84;
+  --color-petrol-dark: #1E4F61;
+  --color-sky: #589AD6;
+  --color-sky-light: #E8F2FB;
+  --color-bubblegum: #CE5487;
+  --color-bubblegum-light: #EF7995;
+  --color-mint: #78C8B9;
+  --color-candy-gold: #E8B12F;
+  --color-cream: #FFFDF8;
+  --color-ink: #232120;
+
+  /* Mismos colores en canales RGB: permiten opacidades de Tailwind (ej: bg-mint/40) */
+  --rgb-petrol: 40 108 132;
+  --rgb-petrol-dark: 30 79 97;
+  --rgb-sky: 88 154 214;
+  --rgb-sky-light: 232 242 251;
+  --rgb-bubblegum: 206 84 135;
+  --rgb-bubblegum-light: 239 121 149;
+  --rgb-mint: 120 200 185;
+  --rgb-candy-gold: 232 177 47;
+  --rgb-cream: 255 253 248;
+  --rgb-ink: 35 33 32;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+  }
+  h1, h2, h3 {
+    @apply font-display font-semibold;
+  }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+
+@layer components {
+  /* Botones */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 font-bold transition
+      focus:outline-none focus-visible:ring-4 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-sm;
+  }
+  /* Compra / acción principal: rosa */
+  .btn-buy {
+    @apply btn bg-bubblegum text-white hover:bg-bubblegum-light focus-visible:ring-bubblegum/30;
+  }
+  /* Primario institucional: petróleo */
+  .btn-primary {
+    @apply btn bg-petrol text-white hover:bg-petrol-dark focus-visible:ring-petrol/30;
+  }
+  .btn-outline {
+    @apply btn border-2 border-petrol text-petrol hover:bg-petrol hover:text-white focus-visible:ring-petrol/30;
+  }
+  .btn-ghost {
+    @apply btn text-petrol hover:bg-sky-light;
+  }
+  .btn-danger {
+    @apply btn bg-red-600 text-white hover:bg-red-700 focus-visible:ring-red-300;
+  }
+  .btn-wa {
+    @apply btn bg-mint text-petrol-dark hover:bg-petrol hover:text-white;
+  }
+
+  /* Formularios */
+  .label {
+    @apply mb-1 block text-sm font-bold text-petrol-dark;
+  }
+  .input {
+    @apply w-full rounded-2xl border-2 border-sky-light bg-white px-4 py-2.5 text-ink placeholder:text-gray-400
+      transition focus:border-sky focus:outline-none focus:ring-4 focus:ring-sky/20 disabled:bg-gray-100;
+  }
+  .input-error {
+    @apply border-red-400 focus:border-red-400 focus:ring-red-100;
+  }
+  .field-error {
+    @apply mt-1 text-sm font-semibold text-red-600;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-card;
+  }
+  /* Contenedor estándar de página */
+  .container-page {
+    @apply mx-auto w-full max-w-7xl px-4 md:px-6;
+  }
+  /* Etiqueta chica arriba de los títulos de sección */
+  /* "Etiqueta" chica arriba de los títulos (tipo sticker) */
+  .eyebrow {
+    @apply inline-flex w-fit items-center gap-1.5 rounded-full bg-sky-light px-3 py-1 text-xs font-bold text-petrol;
+  }
+  .section-title {
+    @apply font-display text-2xl font-semibold text-petrol-dark md:text-3xl;
+  }
+  .chip {
+    @apply inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border-2 px-4 py-1.5 text-sm font-bold transition;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-extrabold;
+  }
+
+  /* Tablas del admin */
+  .table {
+    @apply w-full text-left text-sm;
+  }
+  .table th {
+    @apply whitespace-nowrap bg-sky-light px-3 py-2.5 font-extrabold text-petrol-dark first:rounded-l-xl last:rounded-r-xl;
+  }
+  .table td {
+    @apply border-b border-sky-light px-3 py-2.5 align-middle;
+  }
+}
+
+@layer utilities {
+  /* Toldo a rayas rosa/blanco con borde festoneado, como el del logo circular */
+  .awning {
+    height: 18px;
+    background: repeating-linear-gradient(90deg, var(--color-bubblegum) 0 18px, #ffffff 18px 36px);
+    -webkit-mask:
+      radial-gradient(circle at 9px 9px, #000 8.5px, transparent 9px) 0 100% / 18px 18px repeat-x,
+      linear-gradient(#000, #000) 0 0 / 100% 9px no-repeat;
+    mask:
+      radial-gradient(circle at 9px 9px, #000 8.5px, transparent 9px) 0 100% / 18px 18px repeat-x,
+      linear-gradient(#000, #000) 0 0 / 100% 9px no-repeat;
+  }
+  /* Contorno sutil para que los festones blancos se vean sobre fondo blanco */
+  .awning-wrap {
+    filter: drop-shadow(0 1.5px 0 rgb(var(--rgb-petrol-dark) / 0.28)) drop-shadow(0 4px 4px rgb(var(--rgb-petrol-dark) / 0.12));
+  }
+  /* Brillos/puntitos del caramelo: solo hero y banners */
+  .sparkles {
+    background-image:
+      radial-gradient(circle, rgba(255, 255, 255, 0.55) 2px, transparent 2.5px),
+      radial-gradient(circle, rgba(232, 177, 47, 0.5) 1.5px, transparent 2px);
+    background-size: 46px 46px, 31px 31px;
+    background-position: 0 0, 15px 20px;
+  }
+  .scrollbar-none {
+    scrollbar-width: none;
+  }
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* SweetAlert2 con tipografía de marca */
+.swal2-popup {
+  font-family: Nunito, system-ui, sans-serif !important;
+  border-radius: 1.25rem !important;
+}
+.swal2-title {
+  font-family: Fredoka, system-ui, sans-serif !important;
+  font-weight: 600 !important;
+  color: var(--color-petrol-dark) !important;
+}
+.swal2-styled {
+  border-radius: 9999px !important;
+  font-weight: 700 !important;
+}
+
+/* Sin la "x" nativa del navegador en los buscadores (usamos la nuestra) */
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* Franjas de caramelo en movimiento (fondo del hero) */
+@keyframes candy-stripes {
+  from { background-position: 0 0; }
+  to { background-position: 120px 0; }
+}
+.candy-stripes {
+  background-image: repeating-linear-gradient(-45deg, rgb(255 255 255 / 0.06) 0 20px, transparent 20px 60px);
+  animation: candy-stripes 6s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .candy-stripes { animation: none; }
+}
+
+/* Toldo grande del hero (fachada del local): franjas rosa/blanco con festones abajo */
+.awning-xl {
+  --stripe: 64px;
+  height: 92px;
+  background: repeating-linear-gradient(90deg, var(--color-bubblegum-light) 0 var(--stripe), #ffffff var(--stripe) calc(var(--stripe) * 2));
+  -webkit-mask:
+    radial-gradient(circle at calc(var(--stripe) / 2) 0, #000 calc(var(--stripe) / 2), transparent calc(var(--stripe) / 2 + 1px)) 0 100% / var(--stripe) calc(var(--stripe) / 2) repeat-x,
+    linear-gradient(#000, #000) 0 0 / 100% calc(100% - var(--stripe) / 2) no-repeat;
+  mask:
+    radial-gradient(circle at calc(var(--stripe) / 2) 0, #000 calc(var(--stripe) / 2), transparent calc(var(--stripe) / 2 + 1px)) 0 100% / var(--stripe) calc(var(--stripe) / 2) repeat-x,
+    linear-gradient(#000, #000) 0 0 / 100% calc(100% - var(--stripe) / 2) no-repeat;
+}
+@media (min-width: 768px) {
+  .awning-xl { --stripe: 96px; height: 130px; }
+}
+.awning-xl-wrap {
+  filter: drop-shadow(0 10px 12px rgb(var(--rgb-petrol-dark) / 0.25));
+}
+
+/* ===================== Animaciones de la tienda ===================== */
+@keyframes sway {
+  0%, 100% { transform: skewX(0deg) translateY(0); }
+  50% { transform: skewX(-1.2deg) translateY(2px); }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(var(--r, 0deg)); }
+  50% { transform: translateY(-8px) rotate(calc(var(--r, 0deg) + 6deg)); }
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.35; background-position: 0 0, 15px 20px; }
+  50% { opacity: 0.7; background-position: 6px 4px, 21px 14px; }
+}
+@keyframes shine {
+  0%, 70% { transform: translateX(-120%) skewX(-20deg); }
+  100% { transform: translateX(220%) skewX(-20deg); }
+}
+.animate-sway { animation: sway 4s ease-in-out infinite; transform-origin: top center; }
+.animate-float { animation: float 3.6s ease-in-out infinite; }
+.animate-twinkle { animation: twinkle 3s ease-in-out infinite; }
+/* Destello que recorre un botón cada tanto */
+.btn-shine { position: relative; overflow: hidden; isolation: isolate; }
+.btn-shine::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+  animation: shine 3.5s ease-in-out infinite;
+  z-index: -1;
+  pointer-events: none;
+}
+/* Carrusel infinito de marcas (dos franjas en sentidos opuestos) */
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+.marquee { overflow: hidden; }
+.marquee-track { animation: marquee-left var(--marquee-duration, 50s) linear infinite; will-change: transform; }
+.marquee-track.marquee-right { animation-name: marquee-right; }
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track { animation-play-state: paused; }
+/* Bordes que se desvanecen */
+.marquee-mask {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-sway, .animate-float, .animate-twinkle, .btn-shine::after { animation: none !important; }
+  .marquee { overflow-x: auto; scrollbar-width: none; }
+  .marquee-track { animation: none !important; }
+}

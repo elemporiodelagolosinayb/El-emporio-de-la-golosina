@@ -1,0 +1,18 @@
+{
+  "name": "elemporio",
+  "private": true,
+  "type": "module",
+  "description": "El Emporio de la Golosina — tienda mayorista (API + web)",
+  "scripts": {
+    "postinstall": "npm --prefix server install && npm --prefix client install",
+    "predev": "node scripts/setup-env.js",
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "npm --prefix server run seed:all"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
