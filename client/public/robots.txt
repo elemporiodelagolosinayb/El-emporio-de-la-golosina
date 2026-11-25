@@ -1,0 +1,12 @@
+# El Emporio de la Golosina
+# Los buscadores pueden recorrer la tienda; las páginas privadas (panel, carrito, cuenta) quedan afuera.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /carrito
+Disallow: /checkout
+Disallow: /ingresar
+Disallow: /mis-pedidos
+Disallow: /pedido-confirmado
+
+Sitemap: https://www.elemporiodelagolosina.com/sitemap.xml

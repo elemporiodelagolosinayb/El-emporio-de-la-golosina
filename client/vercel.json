@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/sitemap.xml", "destination": "https://el-emporio-de-la-golosina-zcxc.vercel.app/api/sitemap.xml" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
