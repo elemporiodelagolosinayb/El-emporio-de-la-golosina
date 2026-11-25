@@ -1,0 +1,41 @@
+{
+  "name": "emporio-server",
+  "version": "1.0.0",
+  "description": "API de El Emporio de la Golosina",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "seed:admin": "node seeds/admin.seed.js",
+    "seed:categories": "node seeds/categories.seed.js",
+    "seed:suppliers": "node seeds/suppliers.seed.js",
+    "seed:products": "node seeds/products.seed.js",
+    "seed:settings": "node seeds/settings.seed.js",
+    "seed:all": "node seeds/index.js",
+    "migrate:categories": "node seeds/migrate-categories.js",
+    "test:import": "node scripts/test-import.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.4.1",
+    "express-validator": "^7.2.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "multer": "^2.5.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.4.3",
+    "nodemon": "^3.1.7"
+  }
+}

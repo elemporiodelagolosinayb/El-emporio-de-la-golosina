@@ -1,0 +1,12 @@
+/** Lee page/limit de la query con límites seguros */
+function getPagination(query, defaultLimit = 20, maxLimit = 100) {
+  const page = Math.max(1, parseInt(query.page, 10) || 1);
+  const limit = Math.min(maxLimit, Math.max(1, parseInt(query.limit, 10) || defaultLimit));
+  return { page, limit, skip: (page - 1) * limit };
+}
+
+function paginated(items, total, page, limit) {
+  return { items, total, page, limit, pages: Math.max(1, Math.ceil(total / limit)) };
+}
+
+export { getPagination, paginated };
