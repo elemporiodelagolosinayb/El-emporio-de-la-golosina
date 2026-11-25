@@ -11,7 +11,7 @@ import { confirmAction } from '../utils/alerts';
 import { EmptyState, Icon, QuantityInput, Spinner } from '../components/ui';
 
 export default function Cart() {
-  useTitle('Carrito');
+  useTitle('Carrito', { noindex: true });
   const { items, validating } = useCartValidation();
   const { setQuantity, remove, clear } = useCartStore();
   const minOrder = useSettingsStore((s) => s.settings.minOrderAmount);

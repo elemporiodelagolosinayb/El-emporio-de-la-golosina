@@ -44,7 +44,11 @@ export default function Catalog() {
 
   const current = categories.find((c) => c.slug === categoria);
   const color = current ? colorOf(categories, categoria) : { from: 'from-petrol', to: 'to-sky', text: 'text-white' };
-  useTitle(current?.name || 'Catálogo');
+  useTitle(current?.name ? `${current.name} al por mayor` : 'Catálogo', {
+    description: current
+      ? `${current.name} al por mayor en Yerba Buena, Tucumán: las mejores marcas, con precios mayoristas. Pedí online en El Emporio de la Golosina.`
+      : 'Catálogo completo de golosinas al por mayor: alfajores, chocolates, caramelos, galletas, snacks y más. Pedí online en El Emporio de la Golosina.',
+  });
 
   const updateParam = (key, value) => {
     const next = new URLSearchParams(params);

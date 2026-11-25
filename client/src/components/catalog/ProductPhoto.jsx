@@ -38,9 +38,32 @@ function detectMode(img) {
   return blank / total >= 0.35 ? 'contain' : 'cover';
 }
 
-/** Detecta (una vez por URL) cómo mostrar la foto */
+/** El navegador recuerda el tipo de cada foto entre visitas (así no se vuelve a analizar) */
+const STORAGE_KEY = 'emporio-photo-modes';
+const MAX_SAVED = 2000;
+try {
+  Object.entries(JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}')).forEach(([u, m]) => modeCache.set(u, m));
+} catch {
+  /* sin almacenamiento: se analiza en cada visita */
+}
+let saveTimer;
+function saveModes() {
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(Object.fromEntries([...modeCache].slice(-MAX_SAVED))));
+    } catch {
+      /* lleno o bloqueado: no pasa nada */
+    }
+  }, 500);
+}
+
+/**
+ * Tipo de foto: mientras se analiza (solo la primera vez) se muestra completa sobre blanco,
+ * así la foto aparece enseguida; si resulta ser una foto con fondo propio, pasa a llenar el recuadro.
+ */
 function usePhotoMode(url) {
-  const [mode, setMode] = useState(() => modeCache.get(url) || null);
+  const [mode, setMode] = useState(() => modeCache.get(url) || 'contain');
   useEffect(() => {
     if (modeCache.has(url)) return setMode(modeCache.get(url));
     let alive = true;
@@ -48,6 +71,7 @@ function usePhotoMode(url) {
     probe.crossOrigin = 'anonymous';
     const done = (m) => {
       modeCache.set(url, m);
+      saveModes();
       if (alive) setMode(m);
     };
     probe.onload = () => {
@@ -76,14 +100,13 @@ export default function ProductPhoto({ url, alt = '', width = 500, lazy = true, 
 
   return (
     <div className={`relative h-full w-full overflow-hidden bg-white ${className}`}>
-      {mode && (
-        <img
-          src={cover ? cld(url, width) : productImg(url, width)}
-          alt={alt}
-          loading={lazy ? 'lazy' : undefined}
-          className={`h-full w-full ${cover ? 'object-cover' : `object-contain ${pad}`} ${imgClassName}`}
-        />
-      )}
+      <img
+        src={cover ? cld(url, width) : productImg(url, width)}
+        alt={alt}
+        loading={lazy ? 'lazy' : undefined}
+        decoding="async"
+        className={`h-full w-full ${cover ? 'object-cover' : `object-contain ${pad}`} ${imgClassName}`}
+      />
     </div>
   );
 }
