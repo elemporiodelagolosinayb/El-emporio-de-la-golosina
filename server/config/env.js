@@ -6,6 +6,8 @@ const env = {
   MONGO_URI: process.env.MONGO_URI,
   JWT_SECRET_ADMIN: process.env.JWT_SECRET_ADMIN,
   JWT_SECRET_CUSTOMER: process.env.JWT_SECRET_CUSTOMER,
+  // Dirección pública de la tienda (sitemap y SEO)
+  SITE_URL: (process.env.SITE_URL || 'https://www.elemporiodelagolosina.com').replace(/\/$/, ''),
   CLIENT_URLS: (process.env.CLIENT_URL || 'http://localhost:5173')
     .split(',')
     .map((u) => u.trim().replace(/\/$/, ''))

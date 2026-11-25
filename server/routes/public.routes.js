@@ -9,18 +9,31 @@ import suppliers from '../controllers/supplier.controller.js';
 import * as products from '../controllers/product.controller.js';
 import * as promotions from '../controllers/promotion.controller.js';
 import * as orders from '../controllers/order.controller.js';
+import * as seo from '../controllers/seo.controller.js';
 
-router.get('/settings/public', settings.publicSettings);
+/**
+ * Catálogo público: Vercel guarda la respuesta 1 minuto en su red (s-maxage) y la sigue sirviendo
+ * mientras la renueva en segundo plano (stale-while-revalidate). El navegador no la guarda (max-age=0),
+ * así los cambios del admin se ven en la tienda en ~1 minuto. El carrito (POST) nunca se guarda.
+ */
+// Se aplica ruta por ruta: este router recibe todas las requests (también /admin y /orders), que nunca se guardan
+const publicCache = (req, res, next) => {
+  res.set('Cache-Control', 'public, max-age=0, s-maxage=60, stale-while-revalidate=300');
+  next();
+};
 
-router.get('/categories', categories.publicList);
-router.get('/suppliers', suppliers.publicList);
+router.get('/settings/public', publicCache, settings.publicSettings);
+router.get('/sitemap.xml', publicCache, seo.sitemap);
 
-router.get('/products', products.publicList);
-router.get('/products/featured', products.featured);
-router.get('/products/:slug', products.bySlug);
+router.get('/categories', publicCache, categories.publicList);
+router.get('/suppliers', publicCache, suppliers.publicList);
 
-router.get('/promotions', promotions.publicList);
-router.get('/promotions/:id', validate([idParam()]), promotions.publicOne);
+router.get('/products', publicCache, products.publicList);
+router.get('/products/featured', publicCache, products.featured);
+router.get('/products/:slug', publicCache, products.bySlug);
+
+router.get('/promotions', publicCache, promotions.publicList);
+router.get('/promotions/:id', publicCache, validate([idParam()]), promotions.publicOne);
 
 router.post('/cart/validate', validate(cartItems), orders.validateCart);
 

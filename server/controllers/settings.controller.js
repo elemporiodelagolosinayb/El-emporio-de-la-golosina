@@ -13,7 +13,6 @@ const EDITABLE = [
 
 export const publicSettings = asyncHandler(async (req, res) => {
   const s = await getSettings();
-  res.set('Cache-Control', 'public, max-age=60');
   res.json({ ok: true, settings: toPublic(s) });
 });
 

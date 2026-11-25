@@ -44,6 +44,7 @@ function errorHandler(err, req, res, next) {
     errors = [];
   }
 
+  res.set('Cache-Control', 'no-store'); // un error nunca queda guardado en la red de Vercel
   res.status(status).json({ ok: false, message, errors, ...extra });
 }
 
