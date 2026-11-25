@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTitle } from '../hooks';
 
 export default function NotFound() {
-  useTitle('Página no encontrada');
+  useTitle('Página no encontrada', { noindex: true });
   return (
     <div className="flex min-h-[50vh] flex-col items-center justify-center text-center">
       <p className="font-display text-8xl text-bubblegum">404</p>

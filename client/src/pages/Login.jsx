@@ -76,7 +76,7 @@ const TABS = [
 ];
 
 export default function Login() {
-  useTitle('Ingresar');
+  useTitle('Ingresar', { noindex: true });
   const navigate = useNavigate();
   const location = useLocation();
   const [params] = useSearchParams();

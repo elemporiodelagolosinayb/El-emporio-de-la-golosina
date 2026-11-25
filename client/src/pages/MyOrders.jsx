@@ -50,7 +50,7 @@ export function OrderItems({ items }) {
 
 /** /mis-pedidos */
 export default function MyOrders() {
-  useTitle('Mis pedidos');
+  useTitle('Mis pedidos', { noindex: true });
   const { customer, logout } = useCustomerStore();
   const onLogout = async () => {
     if (await confirmAction('¿Cerrar sesión?', 'Tu carrito se mantiene guardado.', 'Cerrar sesión')) logout();
@@ -120,7 +120,7 @@ export default function MyOrders() {
 /** /mis-pedidos/:orderNumber */
 export function MyOrderDetail() {
   const { orderNumber } = useParams();
-  useTitle(`Pedido ${orderNumber}`);
+  useTitle(`Pedido ${orderNumber}`, { noindex: true });
   const whatsapp = useSettingsStore((s) => s.settings.whatsapp);
   const [state, setState] = useState({ loading: true, order: null });
 
