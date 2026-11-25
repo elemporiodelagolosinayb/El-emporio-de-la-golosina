@@ -7,7 +7,7 @@ import { EmptyState, PageLoader, Pagination } from '../components/ui';
 import { usePaged } from '../hooks/usePaged';
 
 export default function Promotions() {
-  useTitle('Promociones');
+  useTitle('Promociones', { description: 'Promociones y descuentos en golosinas al por mayor en El Emporio de la Golosina, Yerba Buena, Tucumán.' });
   const [state, setState] = useState({ loading: true, items: [] });
   const paged = usePaged(state.items, 6);
 

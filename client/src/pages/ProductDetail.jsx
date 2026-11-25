@@ -53,7 +53,10 @@ function Detail({ product }) {
   const out = false; // sin stock cargado se vende "a confirmar"
   const whatsapp = useSettingsStore((s) => s.settings.whatsapp);
   const consult = waLink(whatsapp, waProductMessage(product));
-  useTitle(product.name);
+  useTitle(product.name, {
+    description: `${product.name}${product.supplier?.name ? ` de ${product.supplier.name}` : ''} al por mayor${priced ? ` a ${formatPrice(product.finalPrice ?? product.price)}` : ''}. ${product.description || `Comprá ${product.category?.name?.toLowerCase() || 'golosinas'} en El Emporio de la Golosina, Yerba Buena, Tucumán.`}`,
+    image: product.image?.url || undefined,
+  });
 
   return (
     <div>

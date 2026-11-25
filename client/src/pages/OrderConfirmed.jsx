@@ -33,7 +33,7 @@ function CopyRow({ label, value, big }) {
 }
 
 export default function OrderConfirmed() {
-  useTitle('Pedido recibido');
+  useTitle('Pedido recibido', { noindex: true });
   const { orderNumber } = useParams();
   const location = useLocation();
   const settings = useSettingsStore((s) => s.settings);

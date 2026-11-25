@@ -16,7 +16,7 @@ import PhoneAuthFlow from '../components/auth/PhoneAuthFlow';
 import { Field, Icon, Input, Spinner, Textarea } from '../components/ui';
 
 export default function Checkout() {
-  useTitle('Confirmar pedido');
+  useTitle('Confirmar pedido', { noindex: true });
   const navigate = useNavigate();
   const { items, validate, validating } = useCartValidation();
   const clear = useCartStore((s) => s.clear);
